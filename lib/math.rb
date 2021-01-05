@@ -35,7 +35,7 @@ if method == "add"
 elseif method == "sub"
   calculator.sub(num1,num2)
 elseif method == "div"
-  RubyCalc.div(num1,num2)
+  calculator.div(num1,num2)
 elseif method == "mult"
   RubyCalc.mult(num1,num2)
 elseif method == "modulo"
