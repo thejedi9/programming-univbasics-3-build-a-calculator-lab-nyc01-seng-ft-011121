@@ -41,9 +41,9 @@ elseif method == "mult"
 elseif method == "modulo"
   calculator.modulo(num1,num2)
 elseif method == "sqrt"
-  RubyCalc.sqrt(num)  
+  calculator.sqrt(num)  
 else
   puts "Method unknown"
   
-end
-  
+  end
+end  
