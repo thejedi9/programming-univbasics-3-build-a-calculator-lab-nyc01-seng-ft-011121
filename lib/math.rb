@@ -19,7 +19,7 @@ end
      puts math.sqrt(num.to_f)
   end
 end
-RubyCalc = Calculator.new
+calculator = Calculator.new
 
 puts "What would you like to do? Choose : \ 'add' for Addition\ 'sub' for subtraction\ 'div' for division\ 'mult' for product\ 'modulo' for percentage\ 'sqrt' for square-root"
 method = gets.chomp
