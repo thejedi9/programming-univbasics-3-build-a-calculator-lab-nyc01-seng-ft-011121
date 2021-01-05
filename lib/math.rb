@@ -31,7 +31,7 @@ puts "Enter the second number:"
 num2 = gets.to_f
 
 if method == "add"
-  RubyCalc.add(num1, num2)
+  calculator.add(num1, num2)
 elseif method == "sub"
   RubyCalc.sub(num1,num2)
 elseif method == "div"
