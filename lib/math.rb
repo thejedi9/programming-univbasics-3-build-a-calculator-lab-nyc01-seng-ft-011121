@@ -18,4 +18,4 @@ end
   def sqrt(num)
      puts math.sqrt(num.to_f)
   end
-end
+
